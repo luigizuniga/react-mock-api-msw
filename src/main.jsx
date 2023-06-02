@@ -7,7 +7,7 @@ import { worker } from './mocks/browser.js'
 worker.start();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // <React.StrictMode>
+  <React.StrictMode>
     <App />
-  // </React.StrictMode>,
+  </React.StrictMode>,
 )
